@@ -1,0 +1,35 @@
+.imagem{
+	background: #5bc0de;
+	background-image: url("../imagens/praia1.jpg");
+	background-repeat: no-repeat;
+}
+.table-color{
+	background: rgba(66,66,111, 1);
+	color: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.table-color-white{
+	background: rgba(255,255,255, 1);
+	color: #000000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.table-pg {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.table-transp{
+	background: rgba(255, 255, 255, 0.6);
+}
+
+@media only screen and (max-width:768px){
+	.cab {
+		display: none;
+	}
+}
+.text-small{
+	font-size: small;
+}
